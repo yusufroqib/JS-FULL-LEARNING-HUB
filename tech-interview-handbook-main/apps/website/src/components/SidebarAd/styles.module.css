@@ -1,0 +1,83 @@
+.container {
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: var(--ifm-global-radius);
+  color: #fff;
+  display: block;
+  opacity: 0.9;
+  padding: 1rem;
+  transition: opacity var(--ifm-transition-fast)
+    var(--ifm-transition-timing-default);
+}
+
+.container:hover {
+  color: #fff !important;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.backgroundFTL {
+  background-color: rgb(244, 63, 94);
+}
+
+.backgroundTIH {
+  background-color: #4f46e5;
+}
+
+.backgroundGreatFrontEnd {
+  background-image: linear-gradient(270deg, #ec4899, #4f46e5);
+}
+
+.backgroundGrokkingCoding {
+  background-color: #6fc8cc;
+  color: #083436 !important;
+}
+
+.backgroundGrokkingCoding:hover {
+  color: #083436 !important;
+}
+
+.backgroundGrokkingSystemDesign {
+  background-color: #58527b;
+}
+
+.backgroundRora {
+  background-color: #1574f9;
+}
+
+.backgroundAlgoMonster {
+  background-image: linear-gradient(270deg, #3e1792, #6a45b9);
+}
+
+.backgroundInterviewingio {
+  background-color: #ffd829;
+  color: rgb(10, 10, 10) !important;
+}
+
+.backgroundInterviewingio:hover {
+  color: rgb(10, 10, 10) !important;
+}
+
+.backgroundByteByteGo {
+  background-color: #35cea0;
+  color: rgb(10, 10, 10);
+}
+
+.backgroundByteByteGo:hover {
+  color: rgb(10, 10, 10);
+}
+
+.tagline {
+  font-size: 0.75rem;
+  margin-bottom: 0;
+}
+
+.title {
+  display: block;
+  font-size: 0.8rem;
+  margin-bottom: 0.1rem;
+}
+
+.logo {
+  width: 96px;
+}

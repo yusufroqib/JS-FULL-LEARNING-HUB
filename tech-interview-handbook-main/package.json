@@ -1,0 +1,28 @@
+{
+  "name": "tech-interview-handbook",
+  "repository": "git@github.com:yangshun/tech-interview-handbook.git",
+  "author": "Yangshun Tay <tay.yang.shun@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "turbo build",
+    "ci": "yarn lint && yarn tsc",
+    "clean": "turbo clean",
+    "dev": "turbo dev --filter=portal... --filter=ui...",
+    "dev:ui": "turbo dev --filter=storybook... --filter=ui...",
+    "dev:website": "turbo dev --filter=website...",
+    "dev:all": "turbo dev --no-cache --parallel --continue",
+    "format": "prettier --write \"**/*.{js,jsx,cjs,mjs,ts,tsx,md,mdx}\"",
+    "lint": "turbo lint",
+    "test": "turbo test",
+    "tsc": "turbo tsc"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "turbo": "latest"
+  }
+}
